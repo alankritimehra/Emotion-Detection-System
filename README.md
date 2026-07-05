@@ -221,7 +221,34 @@ The model predicts emotional patterns from text and **should not be used for med
 - Interactive Streamlit web application
 - Confidence threshold adjustment
 - Built using PyTorch and Hugging Face Transformers
+## Skills & Technologies
+---
+### Programming
+- Python
 
+### Machine Learning & NLP
+- DistilBERT
+- Hugging Face Transformers
+- PyTorch
+- Multi-label Text Classification
+- Natural Language Processing (NLP)
+
+### Data Processing
+- Pandas
+- NumPy
+
+### Web Framework
+- Streamlit
+
+### Model Training
+- GoEmotions Dataset
+- Tokenization
+- Fine-tuning Transformer Models
+
+### Tools
+- Google Colab
+- Git
+- GitHub
 
 ## Author
 
