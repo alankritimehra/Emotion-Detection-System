@@ -194,6 +194,14 @@ This project is intended for educational and research purposes only.
 The model predicts emotional patterns from text and **should not be used for medical or psychological diagnosis**.
 
 ---
+## Project Highlights
+
+- Fine-tuned DistilBERT on Google's GoEmotions dataset
+- Detects 28 different emotions
+- Multi-label emotion classification
+- Interactive Streamlit web application
+- Confidence threshold adjustment
+- Built using PyTorch and Hugging Face Transformers
 
 
 ## Author
