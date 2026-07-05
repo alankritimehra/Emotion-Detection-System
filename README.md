@@ -38,27 +38,34 @@ This project demonstrates the complete NLP workflow including data preprocessing
 
 ```
 Emotion-Detection-System/
-├── screenshots
+│
+├── images/
+│   ├── app_home.png
+│   └── multiple_emotion.png
+│
 ├── app.py
-├── requirements.txt
 ├── README.md
+├── requirements.txt
 ├── .gitignore
-├── Clean_GoEmotions_DistilBERT_Colab_Notebook.ipynb
-└── emotion_model/
-```
-# Emotion Detection System using DistilBERT
+└── Clean_GoEmotions_DistilBERT_Colab_Notebook.ipynb
 
-## Application Preview
+---
+
+A multi-label emotion detection system built using **DistilBERT**, fine-tuned on the **GoEmotions** dataset. The application predicts one or more emotions from user input through an interactive Streamlit interface.
+
+---
+
+##  Application Preview
 
 ### Home Screen
 
-![Application Preview](images/app_home.png)
+![Home Screen](images/app_home.png)
 
-### Example Prediction
+### Multiple Emotion Detection
 
-![Multiple Emotions](images/multiple_emotions.png)
+![Multiple Emotion Detection](images/multiple_emotion.png)
+
 ---
-
 ## Dataset
 
 The model is trained using Google's **GoEmotions** dataset containing **28 emotion classes**.
