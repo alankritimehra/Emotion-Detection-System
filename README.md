@@ -38,7 +38,7 @@ This project demonstrates the complete NLP workflow including data preprocessing
 
 ```
 Emotion-Detection-System/
-│
+├── screenshots
 ├── app.py
 ├── requirements.txt
 ├── README.md
@@ -46,7 +46,17 @@ Emotion-Detection-System/
 ├── Clean_GoEmotions_DistilBERT_Colab_Notebook.ipynb
 └── emotion_model/
 ```
+# Emotion Detection System using DistilBERT
 
+## Application Preview
+
+### Home Screen
+
+![Application Preview](images/app_home.png)
+
+### Example Prediction
+
+![Multiple Emotions](images/multiple_emotions.png)
 ---
 
 ## Dataset
