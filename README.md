@@ -52,7 +52,7 @@ Emotion-Detection-System/
 ---
 
 A multi-label emotion detection system built using **DistilBERT**, fine-tuned on the **GoEmotions** dataset. The application predicts one or more emotions from user input through an interactive Streamlit interface.
-
+```
 ---
 
 ##  Application Preview
@@ -66,6 +66,7 @@ A multi-label emotion detection system built using **DistilBERT**, fine-tuned on
 ![Multiple Emotion Detection](images/multiple_emotion.png)
 
 ---
+
 ## Dataset
 
 The model is trained using Google's **GoEmotions** dataset containing **28 emotion classes**.
