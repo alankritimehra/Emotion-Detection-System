@@ -136,6 +136,45 @@ Optimism
 ```
 
 ---
+## Trained Model
+
+The trained DistilBERT model is not included in this repository because GitHub has a file size limit of 100 MB.
+
+You can download the trained model from the link below:
+
+**Google Drive:**  
+https://drive.google.com/file/d/1SzDSv2X6Xo_-jOVNmlyVZxWyRCiMXyPu/view?usp=sharing
+
+### How to use the model
+
+1. Download the ZIP file from the Google Drive link above.
+2. Extract the ZIP file.
+3. Place the extracted `emotion_model` folder inside the project directory.
+
+Your project structure should look like:
+
+```
+Emotion-Detection-System/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── emotion_model/
+│   ├── config.json
+│   ├── model.safetensors
+│   ├── tokenizer.json
+│   ├── tokenizer_config.json
+│   └── training_args.bin
+│
+└── Clean_GoEmotions_DistilBERT_Colab_Notebook.ipynb
+```
+
+Then run:
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
 ## Future Improvements
 
@@ -155,6 +194,7 @@ This project is intended for educational and research purposes only.
 The model predicts emotional patterns from text and **should not be used for medical or psychological diagnosis**.
 
 ---
+
 
 ## Author
 
