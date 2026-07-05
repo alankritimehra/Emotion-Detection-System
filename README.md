@@ -56,15 +56,15 @@ A multi-label emotion detection system built using **DistilBERT**, fine-tuned on
 ---
 A multi-label emotion detection system built using **DistilBERT**, fine-tuned on the **GoEmotions** dataset. The application predicts one or more emotions from user input through an interactive Streamlit interface.
 
-##  Application Preview
+## Application Preview
 
 ### Home Screen
 
-![Home Screen](images/app_home.png)
+![Home Screen](screenshots/app_home.png)
 
 ### Multiple Emotion Detection
 
-![Multiple Emotion Detection](images/multiple_emotion.png)
+![Multiple Emotion Detection](screenshots/multiple_emotion.png)
 
 ---
 
