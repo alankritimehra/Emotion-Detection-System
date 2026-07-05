@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.safetensors
+emotion_model/
+emotion_model.zip
